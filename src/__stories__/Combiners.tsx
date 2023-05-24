@@ -30,9 +30,6 @@ CircularAllOf.args = { schema: allOfComplexSchema as JSONSchema4 };
 export const ArrayOneOf = Template.bind({});
 ArrayOneOf.args = { schema: oneOfWithArraySchema as JSONSchema4, renderRootTreeLines: true };
 
-export const OneOfMulti = Template.bind({});
-OneOfMulti.args = { schema: oneOfWithMultiTypesSchema, renderRootTreeLines: true };
-
 export const ArrayOneOf2 = Template.bind({});
 ArrayOneOf2.args = { schema: oneOfWithArraySchema2 as JSONSchema4, renderRootTreeLines: true };
 
