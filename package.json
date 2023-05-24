@@ -1,6 +1,6 @@
 {
-  "name": "@stoplight/json-schema-viewer",
-  "version": "0.0.0",
+  "name": "mm-json-schema-viewer",
+  "version": "0.0.1",
   "description": "A beautiful React component for viewing JSON Schema",
   "keywords": [],
   "sideEffects": false,
@@ -12,9 +12,9 @@
     "url": "https://github.com/stoplightio/json-schema-viewer"
   },
   "license": "Apache-2.0",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "files": [
-    "**/*"
+    "dist/"
   ],
   "engines": {
     "node": ">=16"
